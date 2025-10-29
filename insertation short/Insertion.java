@@ -1,7 +1,7 @@
 public class Insertion {
     private Node head;
 
-    public void add(int data) {
+    public void addlast(int data) {
         Node newNode = new Node(data);
         if (head == null) {
             head = newNode;
